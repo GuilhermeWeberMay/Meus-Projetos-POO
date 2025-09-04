@@ -34,6 +34,4 @@ public class Carro {
     private void consumirCombustivel(int qtd){
         this.qtdTanque -= qtd;
     }
-
-
 }
