@@ -3,13 +3,13 @@ public class MainApp {
         Carro carro = new Carro();
         System.out.println("Combustivel disponivel: "+carro.getQtdTanque());
         carro.ligar();
-        carro.dirigir(300);
+        carro.dirigir(20);
         System.out.println("Combustivel disponivel: "+carro.getQtdTanque());
         carro.desligar();
-        carro.ligar();
-        carro.correr(5);
-        System.out.println("Combustivel disponivel: "+carro.getQtdTanque());
-        carro.desligar();
+        //carro.ligar();
+        //carro.correr(10);
+        //System.out.println("Combustivel disponivel: "+carro.getQtdTanque());
+        //carro.desligar();
 
     }
 }
