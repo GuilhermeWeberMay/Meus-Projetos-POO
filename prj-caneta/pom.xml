@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>prj-caneta</artifactId>
+    <artifactId>prj-carro</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
