@@ -8,7 +8,6 @@ public class Carro {
     public void dirigir(float km){
         if(ligado){
             System.out.println("Carro sendo dirigido por "+km+"km");
-            consumirCombustivel(2);
         }else {
             System.out.println("Carro desligado");
         }
@@ -16,7 +15,6 @@ public class Carro {
     public void correr(float km){
         if(ligado){
             System.out.println("Carro correndo por "+km+"km");
-            consumirCombustivel(4);
         }
     }
     public void ligar(){
