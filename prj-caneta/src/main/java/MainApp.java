@@ -1,6 +1,6 @@
 public class MainApp {
     public static void main(String[] args) {
-        Carro carro = new Carro(8670);
+        Carro carro = new Carro("ford ka", "Prata",   );
         System.out.println("Combustivel disponivel: "+carro.getQtdTanque());
         carro.ligar();
         carro.dirigir(100);
