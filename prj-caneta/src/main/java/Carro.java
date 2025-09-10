@@ -4,7 +4,16 @@ public class Carro {
     public float qtdTanque = 100;
     public byte lugares;
     public boolean ligado;
+    public int placa;
 
+    public Carro(int placa){
+        this.placa = placa;
+    }
+    public int getPlaca(){
+        return this.placa;
+    }
+    public void carro(byte lugares){
+    }
     public void dirigir(float km){
         if(ligado){
             System.out.println("Carro sendo dirigido por "+km+"km");
