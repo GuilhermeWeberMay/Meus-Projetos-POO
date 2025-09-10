@@ -5,15 +5,17 @@ public class Carro {
     public byte lugares;
     public boolean ligado;
     public int placa;
+    public Carro(){
 
+    }
     // Este método é necessario para carregar um objeto no main - deve conter todos os parametros das variaveis
     public Carro(String modelo, String cor, byte lugares, boolean ligado, int placa) {
         this.modelo = modelo;
         this.cor = cor;
         this.lugares = lugares;
-        this.ligado = ligado;
         this.placa = placa;
     }
+
 
     public int getPlaca() {
         return this.placa;
